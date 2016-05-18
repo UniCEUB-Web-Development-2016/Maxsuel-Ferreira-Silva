@@ -1,0 +1,142 @@
+Feito por Gabriel Guedes
+
+Competition
+
+1-GET 
+http://localhost/trabalho/competition/
+Resultado: <br />
+<b>Notice</b>: Undefined offset: 1 in <b>/opt/lampp/htdocs/trabalho/control/RequestController.php</b> on line <b>33</b><br />
+<br />
+<b>Fatal error</b>: Call to a member function fetchAll() on boolean in <b>/opt/lampp/htdocs/trabalho/control/UserController.php</b> on line <b>53</b><br />
+
+http://localhost/trabalho/competition/<id>0/
+Resultado: <br />
+<b>Notice</b>: Undefined offset: 1 in <b>/opt/lampp/htdocs/trabalho/control/RequestController.php</b> on line <b>33</b><br />
+<br />
+<b>Fatal error</b>: Call to a member function fetchAll() on boolean in <b>/opt/lampp/htdocs/trabalho/control/UserController.php</b> on line <b>53</b><br />
+
+http://localhost/trabalho/competition/<id>/user/?<paramters>
+Resultado: <br />
+<b>Notice</b>: Undefined offset: 1 in <b>/opt/lampp/htdocs/trabalho/control/RequestController.php</b> on line <b>33</b><br />
+<br />
+<b>Fatal error</b>: Call to a member function fetchAll() on boolean in <b>/opt/lampp/htdocs/trabalho/control/UserController.php</b> on line <b>53</b><br />
+
+http://localhost/trabalho/competition/<id>0/user/?<paramters>
+
+
+1 POST
+http://localhost/trabalho/competition/<id>0/user/?<paramters>
+Resultado: <br />
+<b>Notice</b>: Undefined offset: 1 in <b>/opt/lampp/htdocs/trabalho/control/RequestController.php</b> on line <b>33</b><br />
+<br />
+<b>Notice</b>: Undefined variable: keys in <b>/opt/lampp/htdocs/trabalho/control/UserController.php</b> on line <b>94</b><br />
+<br />
+<b>Notice</b>: Undefined property: UserController::$requiredParameters in <b>/opt/lampp/htdocs/trabalho/control/UserController.php</b> on line <b>94</b><br />
+<br />
+<b>Warning</b>: array_diff(): Argument #1 is not an array in <b>/opt/lampp/htdocs/trabalho/control/UserController.php</b> on line <b>94</b><br />
+<br />
+<b>Notice</b>: Undefined property: UserController::$requiredParameters in <b>/opt/lampp/htdocs/trabalho/control/UserController.php</b> on line <b>95</b><br />
+<br />
+<b>Notice</b>: Undefined variable: keys in <b>/opt/lampp/htdocs/trabalho/control/UserController.php</b> on line <b>95</b><br />
+<br />
+<b>Warning</b>: array_diff(): Argument #1 is not an array in <b>/opt/lampp/htdocs/trabalho/control/UserController.php</b> on line <b>95</b><br />
+null
+
+1 PUT 
+
+http://localhost/trabalho/competition/<id>/?<paramters>
+Resultado: 
+NULL
+
+http://localhost/trabalho/competition/?<paramters>
+Resultado:
+NULL
+
+1 DELETE
+
+http://localhost/trabalho/competition/?<paramters>
+Resultado
+<br />
+<b>Notice</b>: Undefined offset: 1 in <b>/opt/lampp/htdocs/trabalho/control/RequestController.php</b> on line <b>33</b><br />
+null
+
+http://localhost/trabalho/competition/?<paramters>
+Resultado
+<br />
+<b>Notice</b>: Undefined offset: 1 in <b>/opt/lampp/htdocs/trabalho/control/RequestController.php</b> on line <b>33</b><br />
+null
+
+
+
+USER
+
+2 GET
+
+http://localhost/trabalho/user/
+Resultado
+<br />
+<b>Notice</b>: Undefined offset: 1 in <b>/opt/lampp/htdocs/trabalho/control/RequestController.php</b> on line <b>33</b><br />
+<br />
+<b>Fatal error</b>: Call to a member function fetchAll() on boolean in <b>/opt/lampp/htdocs/trabalho/control/UserController.php</b> on line <b>53</b><br />
+
+http://localhost/trabalho/user/<id>/
+resultado
+<br />
+<b>Notice</b>: Undefined offset: 1 in <b>/opt/lampp/htdocs/trabalho/control/RequestController.php</b> on line <b>33</b><br />
+<br />
+<b>Fatal error</b>: Call to a member function fetchAll() on boolean in <b>/opt/lampp/htdocs/trabalho/control/UserController.php</b> on line <b>53</b><br />
+
+http://localhost/trabalho/user/<id>/action/
+Resultado
+<br />
+<b>Notice</b>: Undefined offset: 1 in <b>/opt/lampp/htdocs/trabalho/control/RequestController.php</b> on line <b>33</b><br />
+<br />
+<b>Fatal error</b>: Call to a member function fetchAll() on boolean in <b>/opt/lampp/htdocs/trabalho/control/UserController.php</b> on line <b>53</b><br />
+
+http://localhost/trabalho/user?<parameters>
+Resultado
+<br />
+<b>Notice</b>: Undefined offset: 3 in <b>/opt/lampp/htdocs/trabalho/control/RequestController.php</b> on line <b>16</b><br />
+<br />
+<b>Notice</b>: Undefined offset: 1 in <b>/opt/lampp/htdocs/trabalho/control/RequestController.php</b> on line <b>33</b><br />
+<br />
+<b>Notice</b>: Undefined index: user?name=musquito in <b>/opt/lampp/htdocs/trabalho/control/ResourceController.php</b> on line <b>22</b><br />
+<br />
+<b>Fatal error</b>: Class name must be a valid object or a string in <b>/opt/lampp/htdocs/trabalho/control/ResourceController.php</b> on line <b>22</b><br />
+
+2 POST
+
+http://localhost/trabalho/user?<parameters>
+Resultaldo
+<br />
+<b>Notice</b>: Undefined offset: 3 in <b>/opt/lampp/htdocs/trabalho/control/RequestController.php</b> on line <b>16</b><br />
+<br />
+<b>Notice</b>: Undefined offset: 1 in <b>/opt/lampp/htdocs/trabalho/control/RequestController.php</b> on line <b>33</b><br />
+<br />
+<b>Notice</b>: Undefined index: user?name=musquito&status=winner&longin=muskto in <b>/opt/lampp/htdocs/trabalho/control/ResourceController.php</b> on line <b>18</b><br />
+<br />
+<b>Fatal error</b>: Class name must be a valid object or a string in <b>/opt/lampp/htdocs/trabalho/control/ResourceController.php</b> on line <b>18</b><br />
+
+2 PUT
+
+http://localhost/trabalho/user/<email>?<parameters>
+Resultado
+NULL
+
+http://localhost/trabalho/user/<id>?<parameters>
+resultado
+NULL
+
+2 DELETE
+
+http://localhost/trabalho/user/<id>/
+
+<br />
+<b>Notice</b>: Undefined offset: 1 in <b>/opt/lampp/htdocs/trabalho/control/RequestController.php</b> on line <b>33</b><br />
+null
+
+http://localhost/trabalho/user/<user>/
+Resultado
+<br />
+<b>Notice</b>: Undefined offset: 1 in <b>/opt/lampp/htdocs/trabalho/control/RequestController.php</b> on line <b>33</b><br />
+null
